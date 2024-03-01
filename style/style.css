@@ -16,8 +16,112 @@ body {
     --green-trans:#06f9b860;
     --black-trans: #131c1b54;
 }
+h2 {
+
+    font-size: 34px;
+    font-weight: 600;
+
+}
+
+@media (min-width: 768px) {
+
+    h2 {
+
+        font-size: 50px;
+        font-weight: 600;  
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    h2 {
+
+        font-size: 64px;
+        font-weight: 600;  
+    }
+}
+
+body {
+    background-color: #4f06f9;
+}
+
+.btn {
+
+    position: relative;
+    padding: 10px 50px 10px 25px; 
+    border-radius: 5px;
+    background: none;
+    font-weight: 600;
+  
+}
+.btn-primary {
+
+    position: relative;
+    padding: 10px 50px 10px 25px; 
+    border-radius: 5px;
+    border: 2px solid var(--white);
+    background: none;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.btn-primary:before {
+    
+    content: '\f111';
+    font-family: FontAwesome;
+    margin-right: 10px;
+    color: var(--green);
+    font-size: 12px;
+}
+
+.btn-primary:after {
+    
+    position: absolute;
+    right: -40px;
+    top: 20px;
+
+    content:" ";
+    width: 60px;
+    height: 2px;
+    margin: 0 10px;
+    vertical-align: super;
+    background-color: var(--green);
+    display:inline-block;
+}
+
+.btn-primary:hover {
+
+    border: 2px solid var(--green);
+    color: var(--green)
+
+}
+
+.btn-primary:hover:before{
+    
+    content: '\f111';
+    font-family: FontAwesome;
+    margin-right: 10px;
+    color: var(--white);
+    font-size: 12px;
+}
+
+
+
+
 
 /* ALGEMENE KLASSEN */
+
+
 /* eigen framework */
 
 /* SPECIFIEKE KLASSEN */
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
