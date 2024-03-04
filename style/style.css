@@ -335,7 +335,7 @@ h2 {
     left: 0;
     background-color: rgba(30, 32, 32, 0.842);
     z-index: -1;
-    transition: right 0.3s ease;
+    transition: right 0.7s ease;
 
 }
 
@@ -371,7 +371,7 @@ a.nav-link {
 
 nav a.active {
 
-    color: var(--grey) !important;
+    color: var(--white) !important;
 }
 
 .navbar-toggler {
@@ -469,10 +469,10 @@ span.navbar-toggler-icon {
     background-size: cover;
     top: 0px;
     left: 0;
-    bottom: 0;
+    bottom: 50px;
     right: 50%;
     z-index: -1;
-    height: 500px;
+   
 
 }
 
@@ -481,13 +481,59 @@ span.navbar-toggler-icon {
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 50px;
     right: 50%;
     background-color: rgba(6, 249, 184, 0.623);
     z-index: -1;
-    height: 500px;
+    
 
 }
+
+.green-square {
+
+    background-color: var(--green);
+    height: 200px;
+    width: 250px;
+}
+
+.text-bottom-line {
+
+    background-color: var(--green);
+    height: 5px;
+    width: 150px;
+
+    bottom: 8px;
+    right: -50px;
+    z-index: -1;
+    overflow-y: hidden;
+}
+
+
+@media (min-width: 768px) {
+
+    .text-bottom-line {
+
+        background-color: var(--green);
+        height: 5px;
+        width: 150px;
+    
+        bottom: 12px;
+        left: 20px ;
+        z-index: -1;
+        overflow-y: hidden;
+    }
+    
+
+
+}
+
+
+
+.height-max {
+    height: 100%;
+}
+
+
 
 
 
