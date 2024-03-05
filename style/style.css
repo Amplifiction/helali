@@ -131,8 +131,23 @@ h2 {
 }
 /* portofolio images */
     .port-cont {
-        height: 400px; /*responsief maken?*/
+        height: 190px;
         overflow: hidden;
+    }
+    @media (min-width:600px) {
+        .port-cont {height: 325px;}
+    }
+    @media (min-width:850px) {
+        .port-cont {height: 430px;}
+    }
+    @media (min-width:992px) {
+        .port-cont {height: 250px;}
+    }
+    @media (min-width:1400px) {
+        .port-cont {height: 350px;}
+    }
+    @media (min-width:2100px) {
+        .port-cont {height: 530px;}
     }
     /* .port-img {
         width: 100%;
