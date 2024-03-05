@@ -120,6 +120,15 @@ h2 {
     margin-left: 0px;
     margin-right: 50px;
 }
+.hello {
+    background-image: url(/images/hello-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-black-trans {
+    background-color: var(--black-trans3);
+}
 /* portofolio images */
     .port-cont {
         height: 400px; /*responsief maken?*/
