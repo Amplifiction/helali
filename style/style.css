@@ -355,20 +355,18 @@ section {
 
 @media (min-width: 1218px) {
     .vl-left {
-        left: -50px;
         top: 630px;
     }
 }
 
 @media (min-width: 1436px) {
     .vl-left {
-        left: -50px;
         bottom: 570px;
     }
 }
 
 .vl-left-hero {
-    top: 0px !important;
+    top: 0px;
 }
 
 
@@ -733,8 +731,6 @@ span.navbar-toggler-icon {
     }
 }
 
-
-
 /* FORM */
 .scroll-to-top {
     right: 0;
@@ -787,9 +783,6 @@ input:focus, textarea:focus {
 .fa-linkedin-in {
     color: var(--green);
 }
-
-
-
 
 /*grid-breakpoints:
   xs: 0,
