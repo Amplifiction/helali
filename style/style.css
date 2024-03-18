@@ -181,7 +181,7 @@ section {
 }
 
 .hello {
-    background-image: url(/images/hello-bg.jpg);
+    background-image: url(../images/hello-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,35 +262,35 @@ section {
 }
 
 .bonsai {
-    background-image: url(/images/bonsai.jpg);
+    background-image: url(../images/bonsai.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .brown-bag {
-    background-image: url(/images/brown-bag.jpg);
+    background-image: url(../images/brown-bag.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .cat {
-    background-image: url(/images/cat.jpg);
+    background-image: url(../images/cat.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .milk {
-    background-image: url(/images/milk.jpg);
+    background-image: url(../images/milk.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .white-bag {
-    background-image: url(/images/white-bag.jpg);
+    background-image: url(../images/white-bag.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -545,7 +545,7 @@ section {
 /* HERO SECTION */
 .hero-bg {
     position: relative;
-    background: url(/images/hero-bg.jpg);
+    background: url(../images/hero-bg.jpg);
     background-position: center;
     background-size: cover;
     z-index: 0;
@@ -666,7 +666,7 @@ span.navbar-toggler-icon {
 .testimonials-bg-color::before {
     content: "";
     position: absolute;
-    background: url(/images/testimonial-bg.jpg);
+    background: url(../images/testimonial-bg.jpg);
     background-position: center;
     background-size: cover;
     top: 0px;
